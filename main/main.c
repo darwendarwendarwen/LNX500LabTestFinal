@@ -4,6 +4,13 @@ void debug_of_logging(void);
 
 int main(void)
 {
+
+#ifdef CONFIG_LNX500_TEST
+	char* announce_student(void);
+	printf(announce_student());
+	printf("\n");
+#endif
+
 #ifdef CONFIG_FOO
 	printf("CONFIG_FOO is defined\n");
 #else
