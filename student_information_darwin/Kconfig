@@ -1,0 +1,5 @@
+config LNX500_TEST
+    bool "Enable LNX500 c script"
+    default n
+    help
+        This is for the LNX500 Lab Test.
