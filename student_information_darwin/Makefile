@@ -1,0 +1,1 @@
+lib-$(CONFIG_LNX500_TEST):= LNX500_Test.o
